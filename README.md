@@ -43,7 +43,7 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
    ![Example  image](Capture.png)
 
 
-2. The function getMiddle has been defined in the driver.cpp file, you are required to complete it. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
+2. The function getMiddle has been defined in the LL.cpp file, you are required to complete it. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
 
 3. **Test your function** to make sure that it works in every case, no matter what list is passed in.
 
@@ -71,7 +71,7 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
 	* Calling `inefficientGetMiddle`  on linkedList  1->2->3->4->5  should return 3  
 
 
-2. The function inefficientGetMiddle has been defined in the driver.cpp file, you are required to complete it. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
+2. The function inefficientGetMiddle has been defined in the LL.cpp file, you are required to complete it. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
 
 3. **Test your function** to make sure that it works in every case, no matter what list is passed in.
 
