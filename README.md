@@ -39,6 +39,7 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
 
 	* Calling `getMiddle`  on linkedList  1->2->3->4->5  should return 3  
 
+
       ![Example  image](images/Capture.png)
 
 
