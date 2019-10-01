@@ -51,14 +51,17 @@ You are required to process a given string S that includes '#' symbol. The '#' s
   bool stringManipulation(string S, string T); // example declaration
   ```
   This function should return true if the strings matched else false.  
+    
     **Example 1**
         * Input: S = "ab#c"
         * Output: 2
         * Explanation: S after processing becomes "ac" whose length is 2
+    
     **Example 2**
         * Input: S = "ab##"
         * Output: 0
         * Explanation: S after processing becomes "" whose length in 0
+    
     **Example 3**
         * Input: S = "a#bkb##c"
         * Output: 2
