@@ -43,7 +43,9 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
    ![Example  image](Capture.png)
 
 
-2. **Test your function** Test your code against the test cases given in the code.
+2. The function getMiddle has been defined in the driver.cpp file, you are required to complete it. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
+
+3. **Test your function** to make sure that it works in every case, no matter what list is passed in.
 
 <div style="page-break-after: always;"></div>
 
@@ -69,7 +71,9 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
 	* Calling `inefficientGetMiddle`  on linkedList  1->2->3->4->5  should return 3  
 
 
-2. **Test your function** Test your code against the test cases given in the code.
+2. The function inefficientGetMiddle has been defined in the driver.cpp file, you are required to complete it. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
+
+3. **Test your function** to make sure that it works in every case, no matter what list is passed in.
 
 <div style="page-break-after: always;"></div>
 
@@ -107,7 +111,7 @@ You are required to process a given string S that includes '#' symbol. The '#' s
         * Output: 2
         * Explanation: S after processing becomes "bc".
 
-2. The function stringManipulation has been defined in the driver.cpp file, you are required to complete it. You should use the stack operation from the stater code as and when required. Call it on all the above test case(as well as the ones you generate) and show that it works.
+2. The function stringManipulation has been defined in the driver.cpp file, you are required to complete it. You should use the stack operation from the stater code as and when required. Test your code on the test cases provided (as well as the ones you generate) ensure it works.
 
 3. **Test your function** to make sure that it works in every case, no matter what list is passed in.
 <div style="page-break-after: always;"></div>
