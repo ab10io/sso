@@ -19,26 +19,6 @@ The third document you submit will help us understand your thought process. Ment
 
 Problem 1 (Mandatory)
 ---------------------
-CSCI 2270 Final
-===============
-
-Directions
-----------
-**Read these directions carefully.**
-You will be solving two of the three programming problems detailed below. _Problem 1_ is **mandatory**, but you only have to do **either** _Problem 2_ **or** _Problem 3_. For each problem you must submit three documents:
-
-1. A C++ program that solves the given problem.
-2. A text file that contains the output of your program when it is run.
-3. A short document that contains any issues or concerns you have about the given problem, as well as any information that we need to understand, compile, or run your solution.
-
-The third document you submit will help us understand your thought process. Mention anything you have done to write, test, and debug your code. Incomplete code can still receive points if you show that you have identified the errors and tried to debug them.
-
-* Your submission should be valid C++ 11 code.
-* Your solutions should use similar types and functions to the example code provided, but you are welcome to make modifications as you see fit.
-* Show how you have tested your code. You will be graded higher for code with complete tests.
-* We will be running this code on other computers, so make sure to avoid **any** undefined behavior such as uninitialized variables.
-
-<div style="page-break-after: always;"></div>
 
 Problem 1 (a)
 ----------------------
