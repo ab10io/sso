@@ -33,7 +33,8 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
   ```
   This function should return the middle node.
 
-  **Examples:**  
+  **Examples:**
+  
     * Calling `getMiddle`  on linkedList  1->2->3->4->5->6  should return 3  
 
 	* Calling `getMiddle`  on linkedList  1->2->3->4->5  should return 3  
@@ -61,6 +62,7 @@ Find the middle of a given linked list in C++. Given a singly linked list, find 
   This function should return the middle node.
 
   **Examples:**  
+  
     * Calling `inefficientGetMiddle`  on linkedList  1->2->3->4->5->6  should return 3  
 
 	* Calling `inefficientGetMiddle`  on linkedList  1->2->3->4->5  should return 3  
