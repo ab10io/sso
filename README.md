@@ -19,24 +19,78 @@ The third document you submit will help us understand your thought process. Ment
 
 Problem 1 (Mandatory)
 ---------------------
-### Task:
-Given an array of integers and a target number, determine which two integers from the list (if any) can be added to reach the target number. This must be done efficiently, in O(n) time, by using a hash table.
-### Requirements:
+CSCI 2270 Final
+===============
 
-1. Implement a `printIndicesOfSum` function:
-  ```cpp
-  void printIndicesOfSum(vector<int> arr, int target); // example declaration
-  ```
-  This function should determine which two integers in `arr` add up to `target`, and if they exist it should print their indices. It should do this in O(n) time by using a hash table, although the exact implementation is left to you to decide.  
-  _Hint: storing every number in a hash table will reduce the time it takes to search for a specific number from O(n) to O(1)._
+Directions
+----------
+**Read these directions carefully.**
+You will be solving two of the three programming problems detailed below. _Problem 1_ is **mandatory**, but you only have to do **either** _Problem 2_ **or** _Problem 3_. For each problem you must submit three documents:
 
-**Examples:**  
-  * Given the array `[9, 5, 7, 19]` and the target `24`, calling `printIndicesOfSum(arr, target)` should print `Indices 1 and 3 sum to 24`.  
-  * Given the array `[1, 7, 6, 2]` and the target `8`, calling `printIndicesOfSum(arr, target)` should print either `Indices 0 and 1 sum to 24` or `Indices 2 and 3 sum to 24`. Both are valid.  
-  * Given the array `[1, 2, 6, 2]` and the target `12`, calling `printIndicesOfSum(arr, target)` should print `No indices sum to 12`.  
-2. Write a main function that creates an array of integers, then calls the function defined in part (1) to determine which two indices sum to a particular target. Call it on multiple lists and with multiple targets to show that it works in all cases, and print out the results.
-3. **Test your function** to make sure that it works in every case, no matter which values are passed in.
+1. A C++ program that solves the given problem.
+2. A text file that contains the output of your program when it is run.
+3. A short document that contains any issues or concerns you have about the given problem, as well as any information that we need to understand, compile, or run your solution.
+
+The third document you submit will help us understand your thought process. Mention anything you have done to write, test, and debug your code. Incomplete code can still receive points if you show that you have identified the errors and tried to debug them.
+
+* Your submission should be valid C++ 11 code.
+* Your solutions should use similar types and functions to the example code provided, but you are welcome to make modifications as you see fit.
+* Show how you have tested your code. You will be graded higher for code with complete tests.
+* We will be running this code on other computers, so make sure to avoid **any** undefined behavior such as uninitialized variables.
+
 <div style="page-break-after: always;"></div>
+
+Problem 1 (a)
+----------------------
+
+### Task:
+Find the middle of a given linked list in C++. Given a singly linked list, find middle of the linked list. For example, if given linked list is 1->2->3->4->5 then output should be 3. If there are even nodes, then there would be two middle nodes, we need to print second middle element. For example, if given linked list is 1->2->3->4->5->6 then output should be 4.
+
+### Requirements:
+1. Implement a `getMiddle` function:
+  ```
+  Node*  getMiddle();
+  ```
+  This function should return the middle node.
+
+  **Examples:**  
+    * Calling `getMiddle`  on linkedList  1->2->3->4->5->6  should return 3  
+
+	* Calling `getMiddle`  on linkedList  1->2->3->4->5  should return 3  
+
+      ![Example  image](images/Capture.png)
+
+
+2. **Test your function** Test your code against the test cases given in the code.
+
+<div style="page-break-after: always;"></div>
+
+
+
+Problem 1 (b)
+---------
+
+### Task:
+Find the middle of a given linked list in C++. Given a singly linked list, find middle of the linked list. For example, if given linked list is 1->2->3->4->5 then output should be 3. If there are even nodes, then there would be two middle nodes, we need to print second middle element. For example, if given linked list is 1->2->3->4->5->6 then output should be 4.
+
+### Requirements:
+1. Implement a `inefficientGetMiddle` function:
+  ```
+  Node* inefficientGetMiddle();
+  ```
+  This function should return the middle node.
+
+  **Examples:**  
+    * Calling `inefficientGetMiddle`  on linkedList  1->2->3->4->5->6  should return 3  
+
+	* Calling `inefficientGetMiddle`  on linkedList  1->2->3->4->5  should return 3  
+
+
+2. **Test your function** Test your code against the test cases given in the code.
+
+<div style="page-break-after: always;"></div>
+
+
 
 Problem 2
 ----------
